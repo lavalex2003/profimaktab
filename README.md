@@ -1,5 +1,11 @@
 # ProfiMaktab Home Assistant Integration
 
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/)
+![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2026.x-blue)
+![Version](https://img.shields.io/github/v/release/lavalex2003/profimaktab)
+![License](https://img.shields.io/github/license/lavalex2003/profimaktab)
+![Maintenance](https://img.shields.io/maintenance/yes/2026)
+
 Custom Home Assistant integration for **profimaktab.uz** — electronic school diary.
 
 ## ✨ Features
@@ -58,8 +64,9 @@ Custom Home Assistant integration for **profimaktab.uz** — electronic school d
 1. Open **HACS**
 2. Go to **Integrations**
 3. Add custom repository: https://github.com/lavalex2003/profimaktab
-4. Install **ProfiMaktab**
-5. Restart Home Assistant
+4. Category: **Integration**
+5. Install **ProfiMaktab**
+6. Restart Home Assistant
 
 ---
 
@@ -75,6 +82,15 @@ Configured **only via UI**:
 - Child name (if requested)
 
 Repeat for each child.
+
+---
+
+## 🌍 Localization
+
+The integration includes translations for:
+- 🇬🇧 English
+- 🇷🇺 Russian
+- 🇺🇿 Uzbek
 
 ---
 
@@ -96,6 +112,13 @@ Repeat for each child.
 
 ---
 
+## 🐞 Issues & Support
+
+Please report issues via GitHub Issues:
+https://github.com/lavalex2003/profimaktab/issues
+
+---
+
 ## 📄 License
 
-MIT
+MIT License
