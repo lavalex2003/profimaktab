@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ProfiMaktab",
+        "description": "Enter your ProfiMaktab login and password",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "select_child": {
+        "title": "Select student",
+        "description": "Select the student for which the integration will be created",
+        "data": {
+          "student_id": "Student"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password",
+      "cannot_connect": "Failed to connect to the service",
+      "unknown": "Unknown error",
+      "no_contact": "Contact not found",
+      "no_students": "No students linked to this account",
+      "already_configured": "This student is already configured"
+    }
+  },
+  "entity": {
+    "button": {
+      "update_profimaktab_data": {
+        "name": "Update ProfiMaktab Data"
+      }
+    }
+  }
+}
