@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ProfiMaktab",
+        "description": "Введите логин и пароль ProfiMaktab",
+        "data": {
+          "username": "Имя пользователя",
+          "password": "Пароль"
+        }
+      },
+      "select_child": {
+        "title": "Выбор ученика",
+        "description": "Выберите ученика, для которого будет создана интеграция",
+        "data": {
+          "student_id": "Ученик"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Неверное имя пользователя или пароль",
+      "cannot_connect": "Не удалось подключиться к сервису",
+      "unknown": "Неизвестная ошибка",
+      "no_contact": "Контакт не найден",
+      "no_students": "К данному аккаунту не привязаны ученики",
+      "already_configured": "Этот ученик уже настроен"
+    }
+  },
+  "entity": {
+    "button": {
+      "update_profimaktab_data": {
+        "name": "Обновить данные ProfiMaktab"
+      }
+    }
+  }
+}
