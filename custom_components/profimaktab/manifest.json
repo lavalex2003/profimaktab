@@ -1,0 +1,12 @@
+{
+  "domain": "profimaktab",
+  "name": "profimaktab (Electronic Diary)",
+  "codeowners": ["@lavalex2003"],
+  "config_flow": true,
+  "documentation": "https://github.com/lavalex2003/emaktab",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/lavalex2003/emaktab/issues",
+  "requirements": [],
+  "version": "0.1.1"
+}
