@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ProfiMaktab",
+        "description": "ProfiMaktab login va parolingizni kiriting",
+        "data": {
+          "username": "Foydalanuvchi nomi",
+          "password": "Parol"
+        }
+      },
+      "select_child": {
+        "title": "O‘quvchini tanlash",
+        "description": "Integratsiya yaratiladigan o‘quvchini tanlang",
+        "data": {
+          "student_id": "O‘quvchi"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Foydalanuvchi nomi yoki parol noto‘g‘ri",
+      "cannot_connect": "Xizmatga ulanib bo‘lmadi",
+      "unknown": "Nomaʼlum xatolik",
+      "no_contact": "Kontakt topilmadi",
+      "no_students": "Ushbu akkauntga o‘quvchilar biriktirilmagan",
+      "already_configured": "Ushbu o‘quvchi allaqachon sozlangan"
+    }
+  },
+  "entity": {
+    "button": {
+      "update_profimaktab_data": {
+        "name": "ProfiMaktab maʼlumotlarini yangilash"
+      }
+    }
+  }
+}
